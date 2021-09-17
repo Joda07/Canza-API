@@ -7,6 +7,7 @@ RUN apt-get update
 RUN apt-get install \
     apt-transport-https \
     ca-certificates \
+    software-properties-common \
     curl \
     gnupg \
     lsb-release
